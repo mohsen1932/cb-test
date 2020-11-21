@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
+import Navigation from "./Navigation";
+import SearchBar from "./SearchBar";
 
 const Header = () => (
-    <div className="container">
-        <div className="row">
-            <div className="col">
-                Header
-            </div>
-        </div>
-    </div>
+  <>
+    <Navigation />
+    <SearchBar />
+  </>
 );
 
 export default Header;

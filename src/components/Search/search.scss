@@ -1,0 +1,31 @@
+.search-bar {
+  .search-form {
+    flex: 1;
+    .input-group {
+      height: 40px;
+      width: 100%;
+      background-color: #fff;
+      .form-control {
+        height: 40px;
+        padding: 14px 0 14px 24px;
+        font-size: 0.85rem;
+        font-weight: 300;
+        border: 1px solid #e2e2e3;
+        border-right: none;
+        border-radius: 40px 0 0 40px;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      .search-btn {
+        height: 40px;
+        background: transparent;
+        outline: none;
+        border: 1px solid #e2e2e3;
+        border-left: none;
+        border-radius: 0 40px 40px 0;
+        padding: 0 24px 0 2px;
+      }
+    }
+  }
+}
