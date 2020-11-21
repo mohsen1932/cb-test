@@ -34,7 +34,7 @@ const config = {
   resolve: {
     extensions: [".js", ".json", ".jsx"],
     alias: {
-      components: path.resolve(__dirname, "../src/components"),
+      components: path.resolve(__dirname, "src/components"),
     },
   },
   devtool: false,
