@@ -35,6 +35,7 @@ const config = {
     extensions: [".js", ".json", ".jsx"],
     alias: {
       components: path.resolve(__dirname, "src/components"),
+      Helpers: path.resolve(__dirname, "src/Helpers"),
     },
   },
   devtool: false,
