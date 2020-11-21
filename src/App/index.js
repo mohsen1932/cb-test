@@ -1,17 +1,16 @@
-import React from 'react';
-import Header from 'components/Header';
+import React from "react";
+import Layout from "components/Layout";
+import "./app.scss";
 
 const App = () => (
-    <>
-        <Header />
-        <div className="container">
-            <div className="row">
-                <div className="col">
-                    <h1>Popular Searches</h1>
-                </div>
-            </div>
+  <Layout>
+    <div className="container-xl">
+      <div className="row">
+        <div className="col">
         </div>
-    </>
+      </div>
+    </div>
+  </Layout>
 );
 
 export default App;
